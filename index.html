@@ -352,25 +352,27 @@
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-  $(document).ready(function(){
+$(document).ready(function(){
   $('a.nav-link').on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();
       
       var hash = this.hash;
+      var navbarHeight = $('.navbar').outerHeight();
       
-    
       $('html, body').animate({
-        scrollTop: $(hash).offset().top - $('.navbar').outerHeight()
+        scrollTop: $(hash).offset().top - navbarHeight - 10 
       }, 800, function(){
-        
-       
-        window.location.hash = hash;
+        // Cambiar el hash en la URL sin agregar a la historia del navegador
+        if (history.pushState) {
+          history.pushState(null, null, hash);
+        } else {
+          window.location.hash = hash;
+        }
       });
     }
   });
 });
-
 </script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
