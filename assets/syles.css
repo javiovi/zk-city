@@ -112,7 +112,7 @@ html {
 .title-zk{
   font-family: 'Space Grotesk';
     font-weight: bold !important;
-    font-size: 45px !important;
+    font-size: 70px !important;
     color: #051118;
     line-height: 2px;
     margin-bottom: 10px !important;
@@ -598,10 +598,10 @@ html {
   }
 .area-text{
   font-family: 'Space Grotesk';
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 15px;
   color: #051118;
-  line-height: 28px;
+  line-height: 20px;
 }
   
   @media (max-width: 767px) {

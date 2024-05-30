@@ -135,7 +135,7 @@
         <span class="visually-hidden">Next</span>
       </button>
       <p class="area-text">Area3 El Salvador <br>
-        El Salvador 5218, Palermo, Buenos Aires Argentina.
+     <a href="https://maps.app.goo.gl/v5J71BsHMKei4x4d8">El Salvador 5218, Palermo, Buenos Aires Argentina.</a>
         </p>
     </div>
    
@@ -350,7 +350,28 @@
 
   </main>
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function(){
+  $('a.nav-link').on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      
+      var hash = this.hash;
+      
+    
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top - $('.navbar').outerHeight()
+      }, 800, function(){
+        
+       
+        window.location.hash = hash;
+      });
+    }
+  });
+});
 
+</script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
     AOS.init({
