@@ -82,7 +82,13 @@ html {
         width: auto;
         padding: 5px 10px ;
     }
-  
+    body {
+      background-image: url('./img/background-zk.svg');
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
 }
 
 
