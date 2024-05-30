@@ -359,10 +359,20 @@ $(document).ready(function(){
       
       var hash = this.hash;
       var navbarHeight = $('.navbar').outerHeight();
+      var additionalOffset = 0;
+
+      // Ajustar el offset adicional para dispositivos móviles
+      if (window.matchMedia("(max-width: 768px)").matches) {
+        additionalOffset = -600; // Ajusta este valor según sea necesario para móviles
+      } else {
+        additionalOffset = 10; // Ajusta este valor según sea necesario para escritorio
+      }
+
+      var scrollToPosition = $(hash).offset().top - navbarHeight - additionalOffset;
       
       $('html, body').animate({
-        scrollTop: $(hash).offset().top - navbarHeight - 10 
-      }, 800, function(){
+        scrollTop: scrollToPosition
+      }, 500, function(){
         // Cambiar el hash en la URL sin agregar a la historia del navegador
         if (history.pushState) {
           history.pushState(null, null, hash);
@@ -373,6 +383,7 @@ $(document).ready(function(){
     }
   });
 });
+
 </script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
