@@ -1574,10 +1574,10 @@ footer {
 
 
   body {
-    background-image: url('./img/background-mobile.png'); 
+    background-image: url('./img/background-mobile.svg'); 
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Cambia a scroll si el comportamiento fixed no es deseado en móviles */
+    background-attachment: fixed; 
 }
 }
