@@ -1629,8 +1629,8 @@ footer {
   body {
     background-image: url('./img/background-mobile.png'); 
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
-}
-}
+   
+}}
