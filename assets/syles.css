@@ -72,7 +72,11 @@ html {
     transition: all 0.3s ease;
     overflow-y: auto; 
   }
-
+  .navbar-brand img {
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
   .navbar-nav {
       flex-direction: column; 
       gap: 40px; 
@@ -218,6 +222,7 @@ html {
     }
     .banner-content p {
       font-size: 16px;
+   text-align: left;
     }
 
     .banner-image {
@@ -243,7 +248,7 @@ html {
 
 
       .title-zk {
- text-align: center !important;
+ text-align: left !important;
  margin-bottom: 40px !important;
  margin-top: 30px !important;
       }
@@ -255,6 +260,7 @@ html {
      
        
     } 
+    
   }
 
 
@@ -1624,19 +1630,24 @@ footer {
     font-size: 12px;
     margin-top: 1px;
   }
-  body {
-    background: 
-            
-                linear-gradient(to bottom, rgba(233, 225, 248, 0.9), rgba(225, 152, 244, 0.9)),
-                linear-gradient(to right, rgba(244, 152, 244, 0.7), rgba(225, 225, 244, 0.7)),
-                linear-gradient(to bottom right, rgba(152, 244, 244, 0.5), rgba(244, 152, 244, 0.5));
-                
+  
+ body {
+  
+    background: linear-gradient(to bottom, rgba(233, 225, 248, 0.9), rgba(225, 152, 244, 0.9)),
+    linear-gradient(to right, rgba(244, 152, 244, 0.7), rgba(225, 225, 244, 0.7)),
+    linear-gradient(to bottom right, rgba(152, 244, 244, 0.5), rgba(244, 152, 244, 0.5));
     background-blend-mode: screen;
     background-attachment:fixed;
     background-size: cover;
-    background-position: center;
+
     height: 100%;
     margin: 0;
     overflow-x: hidden;
-  }}
+
+
+
+  }
+
+
+}
   
