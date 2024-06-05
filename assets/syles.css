@@ -726,9 +726,9 @@ margin: 0;
 .agenda-section {
     display: flex;
     justify-content: space-between;
-    padding: 100px 0;
+    padding: 80px 0;
     color: #051118;
-  }
+    margin-bottom: 0; }
   
   .agenda-left {
     flex: 1;
@@ -1026,7 +1026,7 @@ margin: 0;
 
 
   .illustration-container img {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     
 
