@@ -1699,7 +1699,7 @@ footer {
     margin-top: 1px;
   }
   
-  /*
+  
  body {
   
     background: linear-gradient(to bottom, rgba(233, 225, 248, 0.9), rgba(225, 152, 244, 0.9)),
@@ -1717,15 +1717,7 @@ footer {
 
   }
 
-*/
-body {
-  background-image: url('./img/background-mobile.png');
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100%;
-}
+
 
 
 }
