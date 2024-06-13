@@ -1197,9 +1197,10 @@ margin: 0;
   
   .mentors-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding-right: 1px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-right: 1;
+   
   }
   
   .mentor-card {
@@ -1207,12 +1208,14 @@ margin: 0;
     flex-direction: column;
     align-items: flex-start; 
     text-align: left; 
+   
+ 
   }
   
   .mentor-card img {
     border-radius: 10px;
     width: 100%;
-    max-width: 210px;
+    max-width: 220px;
     height: 250px;
     object-fit: cover;
     margin-bottom: 10px;
