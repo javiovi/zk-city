@@ -22,19 +22,23 @@
 />
     <link href="./assets/syles.css" rel="stylesheet">
 
-    <title>ZK City</title>
+
     <meta property="og:title" content="zkCity - A one-week immersive bootcamp in Buenos Aires">
     <meta property="og:description" content="Designed to foster cross-disciplinary breakthroughs.">
     <meta property="og:image" content="https://www.zkcity.xyz/assets/img/logo.png">
     <meta property="og:url" content="https://zkcity.xyz">
     <meta property="og:type" content="website">
     
-    <!-- Twitter meta tags (Optional but recommended) -->
+   
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="zkCity - A one-week immersive bootcamp in Buenos Aires">
     <meta name="twitter:description" content="Designed to foster cross-disciplinary breakthroughs.">
     <meta name="twitter:image" content="https://www.zkcity.xyz/assets/img/logo.png">
     <meta name="twitter:url" content="https://zkcity.xyz">
+    
+    <title data-i18n="title">zkCity</title>
+
+
 </head>
 <body>
 
@@ -54,21 +58,23 @@
               </div>
               <ul class="navbar-nav ms-auto text-center">
                   <li class="nav-item">
-                      <a class="nav-link" href="#why">Why zkCity</a>
+                      <a class="nav-link" href="#why"  data-i18n="why_zkcity">Why zkCity</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#carouselExample">The Venue</a>
+                      <a class="nav-link" href="#carouselExample" data-i18n="the_venue">The Venue</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#agenda">Agenda</a>
+                      <a class="nav-link" href="#agenda" data-i18n="agenda">Agenda</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#mentors">Mentors</a>
+                      <a class="nav-link" href="#mentors"  data-i18n="mentors">Mentors</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#supporters">Supporters</a>
+                      <a class="nav-link" href="#supporters"  data-i18n="supporters">Supporters</a>
                   </li>
+                  <button id="language-switcher" class="btn btn-success-3">Español</button>
               </ul>
+            
           </div>
       </div>
   </nav>
@@ -78,13 +84,14 @@
   <main>
     <section class="banner d-flex flex-column-reverse flex-lg-row align-items-center text-center text-lg-start">
       <div class="banner-content p-4">
-      <p class="fecha">August 19th — 25th, 2024</p>
+        <p class="b-a" >Buenos Aires</p> 
+      <p class="fecha"  data-i18n="fecha" >August 19th — 25th, 2024</p>
       <h1 class="title-zk">zkCity</h1>
      
-        <h1>A one-week immersive bootcamp in <strong>Buenos Aires</strong> designed to foster cross-disciplinary breakthroughs.</h1>
+        <h1 data-i18n="description">zkCity is a week-long bootcamp designed for students, researchers and developers to discover and learn about Cryptography and Zero-Knowledge (zk).</h1>
         <div class="banner-buttons mt-4">
-          <a href="mailto:info@zkcity.xyz" target="_blank" class="btn btn-primary me-2">Contribute</a>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMsCZcrP2mWljtj1sxqWH7i9FmqpMLwBd2PZ86Q142lSh52A/viewform" target="_blank" class="btn btn-success">Apply now</a>
+          <a href="mailto:info@zkcity.xyz" target="_blank" class="btn btn-primary me-2" data-i18n="contribute">Contribute</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMsCZcrP2mWljtj1sxqWH7i9FmqpMLwBd2PZ86Q142lSh52A/viewform" target="_blank" class="btn btn-success" data-i18n="apply">Apply now</a>
         </div>
       </div>
       <div class="banner-image">
@@ -96,18 +103,18 @@
 
     <section class="why-zkcity-section d-flex flex-column flex-lg-row align-items-start" id="why" >
       <div class="why-zkcity-left">
-        <img src="./assets/img/why.svg" alt="Why zkCity"  class="why-zkcity-image">
+        <img src="./assets/img/why.svg" alt="Why zkCity"  class="why-zkcity-image"data-i18n-src="why_image">
       
-        <img src="./assets/icons/why-mobile.svg" alt="Why zkCity"  class="why-zkcity-mobile">
+        <img src="./assets/icons/why-mobile.svg" alt="Why zkCity"  class="why-zkcity-mobile" data-i18n-src="why_mobile_image">
       </div>
       <div class="why-zkcity-right position-relative">
         <img src="./assets/img/mask-why.svg" alt="Background" class="mask-why-img">
        
         <div class="why-zkcity-content position-absolute top-1 start-1 p-4">
-          <p class="text-paragraph">The event will bring together<strong> 50 students</strong> from diverse backgrounds such as Mathematics, Computer Science and Engineering who will have the unique opportunity to learn from top-class cryptographers and engineers from established zero-knowledge projects.</p>
+          <p class="text-paragraph" data-i18n="paragraph1">The event will bring together<strong> 50 students</strong> from diverse backgrounds such as Mathematics, Computer Science and Engineering who will have the unique opportunity to learn from top-class cryptographers and engineers from established zero-knowledge projects.</p>
      
-            <p class="text-paragraph-2">  With its in-person format, the event cultivates an environment of deep collaboration, the exchange of ideas, and insightful discussions.</p>
-          <p class="text-black-two">The experience culminates in a hackathon, providing an opportunity for students to put their newfound knowledge into practice.</p>
+            <p class="text-paragraph-2"data-i18n="paragraph2">  With its in-person format, the event cultivates an environment of deep collaboration, the exchange of ideas, and insightful discussions.</p>
+          <p class="text-black-two" data-i18n="text-black">The experience culminates in a hackathon, providing an opportunity for students to put their newfound knowledge into practice.</p>
         </div>
       </div>
     </section>
@@ -165,32 +172,32 @@
       <div class="agenda-right">
         <div class="agenda-item">
           <div class="agenda-date">
-            <div class="agenda-month">August</div>
+            <div class="agenda-month" data-i18n="agosto">August</div>
             <div class="date-range">19 – 23</div>
           </div>
           <div class="agenda-content">
-            <h3>Intensive 5-Day Accelerated Cryptography Bootcamp</h3>
+            <h3  data-i18n="intensive">Intensive 5-Day Accelerated Cryptography Bootcamp</h3>
           </div>
         </div>
           <div class="schedule-item">
-            <span class="schedule-time">Mornings</span>
+            <span class="schedule-time" data-i18n="mornings">Mornings</span>
             <span class="line"></span>
-            <span class="schedule-desc">Master the Fundamentals</span>
+            <span class="schedule-desc" data-i18n="master">Master the Fundamentals</span>
           </div>
         <div class="schedule-item">
-          <span class="schedule-time">Afternoons</span>
+          <span class="schedule-time" data-i18n="afternoons">Afternoons</span>
           <span class="line"></span>
-          <span class="schedule-desc">Hands-on Application</span>
+          <span class="schedule-desc" data-i18n="hands">Hands-on Application</span>
         </div>
         <div class="agenda-item">
           <div class="agenda-date-2">
-            <div class="agenda-month">August</div>
+            <div class="agenda-month" data-i18n="agosto">August</div>
             <div class="date-range">23 – 25</div>
 
           </div>
-          <div class="agenda-content">
-            <h3>Weekend<br> Hackathon</h3>
-           <p class="foot-text">Friday through Sunday</p>
+          <div class="agenda-content-2">
+            <h3 data-i18n="weekend">Weekend<br> Hackathon</h3>
+        
           </div>
         </div>
        
@@ -203,40 +210,40 @@
     <section class="main-themes-section d-flex flex-column flex-lg-row align-items-start"  data-aos="fade-up">
       <div class="themes-left"  >
         <div class="title-container-1">
-          <img src="./assets/img/main.svg" alt="Main Themes Title" class="main-desktop">
-          <img src="./assets/icons/main-mobile.svg" alt="Main Themes Title" class="main-mobile"> 
+          <img src="./assets/img/main.svg" alt="Main Themes Title" class="main-desktop en-class" data-i18n-src="main-desk">
+          <img src="./assets/icons/main-mobile.svg" alt="Main Themes Title" class="main-mobile en-class" data-i18n-src="main-mobile"> 
         </div>
         <div class="illustration-container">
           <img src="./assets/img/img-cambio.png" alt="Illustration">
         </div>
       </div>
       <div class="themes-right ">
-        <h2 class="themes-title">Centering around technology and humans at the cutting edge of innovation</h2>
+      
         <div class="themes-content">
           <div class="theme-item">
-            <h3 class="theme-heading">Introduction<br> to Cryptography</h3>
-            <p>Learn what cryptography is, exploring intractable problems, Discrete Logarithm, RSA, Diffie-Hellman, digital signatures, key-exchange, hash functions, and Bitcoin.</p>
+            <h3 class="theme-heading" data-i18n="tl-1">Introduction<br> to Cryptography</h3>
+            <p data-i18n="pr-1">Learn what cryptography is, exploring intractable problems, Discrete Logarithm, RSA, Diffie-Hellman, digital signatures, key-exchange, hash functions, and Bitcoin.</p>
           </div>
 
           <div class="theme-item">
-            <h3 class="theme-heading">Proof<br>Systems</h3>
-            <p>Understand cryptocurrency transactions, proofs of knowledge: definition and intuition, zero-knowledge proofs, and practical examples like knowledge of discrete log and ZCash.</p>
+            <h3 class="theme-heading" data-i18n="tl-2" >Proof<br>Systems</h3>
+            <p data-i18n="pr-2">Understand cryptocurrency transactions, proofs of knowledge: definition and intuition, zero-knowledge proofs, and practical examples like knowledge of discrete log and ZCash.</p>
           </div>
           
            
           <div class="theme-item">
             <h3 class="theme-heading">zkSNARKs</h3>
-            <p>Dive into zkSNARKs with general recipes, polynomial interactive oracle proofs, KZG polynomial commitments, pairings, and the Algebraic Group Model (AGM).</p>
+            <p data-i18n="pr-3">Dive into zkSNARKs with general recipes, polynomial interactive oracle proofs, KZG polynomial commitments, pairings, and the Algebraic Group Model (AGM).</p>
           </div>
 
           <div class="theme-item">
-            <h3 class="theme-heading">Design</h3>
-            <p>Explore SNARKs for specific relations, such as vector commitments and lookup arguments.</p>
+            <h3 class="theme-heading" data-i18n="tl-4">Design</h3>
+            <p data-i18n="pr-4">Explore SNARKs for specific relations, such as vector commitments and lookup arguments.</p>
           </div>
 
           <div class="theme-item">
-            <h3 class="theme-heading">Beyond the Basics</h3>
-            <p>Study different setups (trusted, updatable, transparent), NP problems with various arithmetizations (Plonk, R1CS, QAPs), and advanced concepts like STARKs and Groth16.</p>
+            <h3 class="theme-heading" data-i18n="tl-5">Beyond the Basics</h3>
+            <p data-i18n="pr-5"> Study different setups (trusted, updatable, transparent), NP problems with various arithmetizations (Plonk, R1CS, QAPs), and advanced concepts like STARKs and Groth16.</p>
           </div>
     
         </div>
@@ -245,8 +252,8 @@
     
     <section class="mentors-section" id="mentors" data-aos="fade-up">
       <div class="mentors-left">
-        <img src="./assets/img/mentors.svg" alt="Mentors" class="mentors-desktop">
-        <img src="./assets/icons/mentors-mobile.svg" alt="Mentors" class="mentors-mobile"> 
+        <img src="./assets/img/mentors.svg" alt="Mentors" class="mentors-desktop" data-i18n-src="mentors-desk">
+        <img src="./assets/icons/mentors-mobile.svg" alt="Mentors" class="mentors-mobile" data-i18n-src="mentors-mob"> 
       </div>
       <div class="mentors-right">
      
@@ -313,9 +320,9 @@
     
     <section class="supporters-section" data-aos="fade-up" id="supporters">
       <div class="supporters-left">
-        <div class="title-container">
-          <img src="./assets/img/supporters.svg" alt="Supporters" class="supporters-desktop">
-          <img src="./assets/icons/supporters-mobile.svg" alt="Supporters" class="supporters-mobile"> 
+        <div class="title-container title-en">
+          <img src="./assets/img/supporters.svg" alt="Supporters" class="supporters-desktop " data-i18n-src="colab-desk">
+          <img src="./assets/icons/supporters-mobile.svg" alt="Supporters" class="supporters-mobile supporters-en" data-i18n-src="colab-mobile"> 
         </div>
      
       </div>
@@ -332,18 +339,137 @@
             <img src="./assets/icons/nethermind-black.png" alt="Sponsor Logo 3" class="sponsor-logo">
           </a>
           <a href="https://eryx.co/" target="_blank">
-            <img src="./assets/icons/LogoVector.60e5faf862e20ad15382d416aff7b88a.svg" alt="Sponsor Logo 4" class="sponsor-logo">
+            <img src="./assets/icons/LogoVector.60e5faf862e20ad15382d416aff7b88a.svg" alt="Sponsor Logo 4" class="sponsor-logo-2">
           </a>
           <a href="https://web3citizen.xyz/" target="_blank">
-            <img src="./assets/icons/w3c.svg" alt="Sponsor Logo 5" class="sponsor-logo">
+            <img src="./assets/icons/w3c.svg" alt="Sponsor Logo 5" class="sponsor-logo-3">
           </a>
-         
+          <a href="https://web3citizen.xyz/" target="_blank">
+            <img src="./assets/icons/sba-logo.png" alt="Sponsor Logo 6" class="sponsor-logo-4">
+          </a> 
         </div>
         <div class="button-container">
-          <a href="mailto:info@zkcity.xyz" class="btn btn-success-2">Become Supporter</a>
+          <a href="mailto:info@zkcity.xyz" class="btn btn-success-2" data-i18n="become">Become Supporter</a>
         </div>
       </div>
     </section>
+
+
+    <section class="faqs-section" data-aos="fade-up" id="faqs">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 order-2 order-lg-1">
+            <div class="title-container-3">
+              <img src="./assets/icons/faqs-desktop.svg" alt="FAQs" class="faqs-desktop faqs-en" data-i18n-src="faqs">
+              <img src="./assets/icons/faqs-mobile.svg" alt="FAQs" class="faqs-mobile faqs-en" data-i18n-src="faqs-mob"> 
+            </div>
+          </div>
+          <div class="col-lg-8 order-1 order-lg-2">
+            <div class="accordion" id="faqsAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" data-i18n="whats">
+                    What is a bootcamp?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqsAccordion">
+                  <div class="accordion-body" data-i18n="whats-text">
+                    A bootcamp is a short, intensive program designed to teach specific skills through a mix of theory and practice.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" data-i18n="hack">
+                    What is a hackathon?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqsAccordion">
+                  <div class="accordion-body" data-i18n="hack-text">
+                    A hackathon is an event where people with different skills gather to work on tech projects over a weekend. It’s a chance to create innovative solutions and learn new skills.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" data-i18n="acom">
+                    Accommodation
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqsAccordion">
+                  <div class="accordion-body" data-i18n="acom-text">
+                    We recommend staying in Palermo, Belgrano, or Recoleta. These neighborhoods offer safety, amenities, and are close to the event.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" data-i18n="getting">
+                    Getting around Buenos Aires
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqsAccordion">
+                  <div class="accordion-body" data-i18n="getting-text">
+                    Buenos Aires has various transport options like the subway, buses, taxis, and apps like Uber and Cabify. Use the SUBE card for public transport.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" data-i18n="need">
+                    What do I need for the bootcamp?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqsAccordion">
+                  <div class="accordion-body" data-i18n="need-text">
+                    Bring a laptop and a desire to learn and have fun!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" data-i18n="cost">
+                    Is there a cost for the bootcamp?
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqsAccordion">
+                  <div class="accordion-body" data-i18n="cost-text">
+                    No, the bootcamp is free. However, participants must cover their own accommodation, transport, and personal costs. If you need financial support, email us at info@zkcity.xyz.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" data-i18n="language">
+                    What language will be used at the bootcamp?
+                  </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqsAccordion">
+                  <div class="accordion-body" data-i18n="language-text">
+                    The bootcamp will be mainly in Spanish, but some talks will be in English.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEight">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" data-i18n="participate">
+                    Are there any prerequisites to participate?
+                  </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqsAccordion">
+                  <div class="accordion-body" data-i18n="participate-text">
+                    Yes, all participants must complete the application form. Selected individuals will receive a confirmation email with event details.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+
 
 
 
@@ -351,8 +477,8 @@
       <div class="footer-content">
           <div class="footer-left">
               <div class="contact-container">
-                  <img src="./assets/img/get.svg" alt="Get in touch" class="contact-title">
-                  <img src="./assets/img/get-mobile.svg" alt="Get in touch" class="contact-title-mobile">
+                  <img src="./assets/img/get.svg" alt="Get in touch" class="contact-title" data-i18n-src="get">
+                  <img src="./assets/img/get-mobile.svg" alt="Get in touch" class="contact-title-mobile" data-i18n-src="get-mobile">
                   <div class="contact-arrow-container">
                       <img src="./assets/icons/arrow-right.svg" alt="Arrow" class="contact-arrow">
                       <p><a href="mailto:info@zkcity.xyz">info@zkcity.xyz</a></p>
@@ -367,19 +493,19 @@
           <div class="footer-right">
             <ul class="footer-nav">
               <li class="nav-item">
-                  <a class="nav-link" href="#why">Why zkCity</a>
+                  <a class="nav-link" href="#why" data-i18n="why_zkcity" >Why zkCity</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#carouselExample">The Venue</a>
+                  <a class="nav-link" href="#carouselExample" data-i18n="the_venue">The Venue</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#agenda">Agenda</a>
+                  <a class="nav-link" href="#agenda" data-i18n="agenda">Agenda</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#mentors">Mentors</a>
+                  <a class="nav-link" href="#mentors" data-i18n="mentors">Mentors</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#supporters">Supporters</a>
+                  <a class="nav-link" href="#supporters" data-i18n="supporters">Supporters</a>
               </li>
           </ul>
             
@@ -388,7 +514,7 @@
           </div>
       </div>
       <div class="footer-bottom">
-          <p>© 2024 — All Rights Reserved</p>
+          <p data-i18n="derechos">© 2024 — All Rights Reserved</p>
          
       </div>
   </footer>
@@ -400,7 +526,7 @@
 
 
   </main>
-
+  <script src="language.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -470,6 +596,8 @@ $(document).ready(function(){
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
           <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+  
+   
+  
   </body>
 </html>
