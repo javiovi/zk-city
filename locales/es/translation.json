@@ -20,7 +20,7 @@
   "master": "Fundamentos Teóricos",
   "afternoons": "Tardes",
   "hands": "Aplicación práctica",
-  "weekend": "Hackathon de viernes a domingo.",
+  "weekend": "Hackathon de viernes a domingo",
   "main-desk": "./assets/icons/mask-es-desktop.svg",
   "main-mobile": "./assets/icons/mask-es-mobile.svg",
   "tl-1":"Introducción<br> a la Criptografía",
