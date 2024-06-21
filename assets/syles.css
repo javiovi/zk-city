@@ -1523,8 +1523,9 @@ margin: 0;
    }
 
    .supporters-es{
-    max-width: 330px !important;
-    padding-right: 40px;
+    max-width: 300px !important;
+    margin-left: -40px !important;
+  
     
    }
     .supporters-right {
