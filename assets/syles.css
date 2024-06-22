@@ -651,9 +651,10 @@ margin: 0;
   font-weight: 400;
   font-size: 16px;
   color: #051118;
-  line-height: 20px;
+  line-height: 30px;
   margin-top: 15px;
   text-decoration: none;
+ 
 }
 .area-text a{
   font-family: 'Space Grotesk';
@@ -661,6 +662,7 @@ margin: 0;
   font-size: 16px;
   color: #051118;
   line-height: 20px;
+
   text-decoration: none;
 } 
 
@@ -1445,7 +1447,7 @@ margin: 0;
     height: 150px;
     object-fit: contain; 
     display: block;
-    margin-left: 70px;
+    margin-left: 30px;
   }  
   .sponsor-logo-3 {
     width: 70%;
@@ -1512,7 +1514,7 @@ margin: 0;
 
     .title-container{
       max-width: 90%;
-      margin-left: 40px;
+      margin-left: 45px;
     }
 
 
@@ -1536,7 +1538,7 @@ margin: 0;
     .sponsor-logos {
       grid-template-columns: 1fr; 
       gap: 0px;
-      margin-top: -100px;
+      margin-top: -80px;
     }
   
     .sponsor-logo {
