@@ -315,10 +315,9 @@ margin: 0;
    
    
 }
-
 .text-paragraph {
     font-family: 'Work Sans';
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 400px;
     margin-bottom: 60px;
     line-height: 28px;
@@ -326,9 +325,9 @@ margin: 0;
 }
 .text-paragraph-2 {
   font-family: 'Work Sans';
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 400px;
-  margin-bottom: 80px;
+  margin-bottom: 200px;
   line-height: 28px;
   max-width: 90%;
  
@@ -412,7 +411,7 @@ margin: 0;
     }
 
     .text-paragraph {
-        font-size: 14px;
+        font-size: 18px;
         margin-bottom: 40px;
         width: 80%;
         line-height: 20px;
@@ -420,7 +419,7 @@ margin: 0;
     }
 
     .text-paragraph-2{
-      font-size: 14px;
+      font-size: 18px;
       margin-bottom: 40px;
       width: 80%;
       line-height: 20px;
@@ -491,19 +490,19 @@ margin: 0;
     }
 
     .text-paragraph {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 17px;
         margin-bottom: 20px;
         width: 95%;
-       margin-left: 30px;
+       margin-left: 25px;
 
     }
     .text-paragraph-2 {
-      font-size: 14px;
+      font-size: 16px;
       line-height: 17px;
       margin-bottom: 20px;
       width: 95%;
-      margin-left: 30px;
+      margin-left: 25px;
   }
 
 
