@@ -1452,14 +1452,16 @@ margin: 0;
     height: 150px;
     object-fit: contain; 
     display: block;
-    margin-left: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
   }  
   .sponsor-logo-3 {
     width: 70%;
     height: 150px;
     object-fit: contain; 
     display: block;
-    margin-left: 40px;
+  
+    margin-left: 0px;
   }
 
   .sponsor-logo-4 {
