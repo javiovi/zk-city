@@ -57,6 +57,7 @@
   "participate-text": "Sí, todos los participantes deben completar el formulario de aplicación. Quienes sean seleccionados recibirán un mail de confirmación y luego serán introducidos a los detalles del evento.",
   "get":"./assets/icons/contactanos.svg",
   "get-mobile":"./assets/icons/contactanos.svg",
-  "derechos": "© 2024 —Todos los Derechos Reservados"
-
+  "derechos": "© 2024 —Todos los Derechos Reservados",
+  "mentors-online": "./assets/icons/mentores-online.svg",
+  "mentors-online-mob": "./assets/icons/mentores-online-mobile.svg"
   }

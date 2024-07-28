@@ -1279,7 +1279,9 @@ margin: 0;
     text-align: left; 
     line-height: 20px;
   }
-
+ .mentors-mobile-2{
+  display: none;
+ }
 
   @media (max-width: 768px) {
     .mentors-section {
@@ -1301,6 +1303,15 @@ margin: 0;
       display: block;
       margin-bottom: 10px;
     }
+    
+    .mentors-mobile-2{
+      max-width: 75%;
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    
+    
     .mentors-right {
       margin: 0;
       width: 90%;

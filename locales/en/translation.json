@@ -57,7 +57,7 @@
   "participate-text": " Yes, all participants must complete the application form. Selected individuals will receive a confirmation email with event details.",
   "get":"./assets/img/get.svg",
    "get-mobile":"./assets/img/get-mobile.svg",
-   "derechos":"© 2024 — All Rights Reserved"
-
-
-}
+   "derechos":"© 2024 — All Rights Reserved",
+   "mentors-online": "./assets/icons/online-mentors.svg",
+   "mentors-online-mob": "./assets/icons/online-mentors-desktop.svg"
+  }
