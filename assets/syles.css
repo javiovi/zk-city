@@ -1528,7 +1528,40 @@ margin: 0;
     margin-left: 0px;
 
   }
-
+  .sponsor-logo-6 {
+    width: 80%;
+    height: 150px;
+    object-fit: contain; 
+    display: block;
+  
+    margin-left: 10px;
+  }
+  .sponsor-logo-7 {
+    width: 85%;
+    height: 150px;
+    object-fit: contain; 
+    display: block;
+    margin-top: -35px;
+    margin-left: 5px;
+  }
+  .sponsor-logo-8{
+    width: 90%;
+    height: 150px;
+    object-fit: contain; 
+    display: block;
+   
+    margin-left:-10px;
+  }
+  .sponsor-logo-9 {
+    width: 70%;
+    height: 150px;
+    object-fit: contain; 
+    display: block;
+    margin-top: -35px;
+    margin-left: 50px;
+  }
+  
+  
   .button-container {
     display: flex;
     justify-content: center;
@@ -1635,13 +1668,47 @@ margin: 0;
     .sponsor-logo-4 {
       width: 100%;
      
-      height: 200px;
+      height: 230px;
       margin: 0 auto;
       margin-top: -40px;
-      margin-left:8px;
+      margin-left:0px;
       margin-bottom: -30px;
     }
 
+    .sponsor-logo-6 {
+      width: 70%;
+      height: 150px;
+      object-fit: contain; 
+      display: block;
+     margin-top: -50px;
+      margin-left: 50px;
+    }
+    .sponsor-logo-7 {
+      width: 85%;
+      height: 150px;
+      object-fit: contain; 
+      display: block;
+      margin-top: -35px;
+ 
+    }
+    .sponsor-logo-8{
+      width: 90%;
+      height: 150px;
+      object-fit: contain; 
+      display: block;
+      margin-left: 20px;
+      margin-top: -40px;
+    }
+    .sponsor-logo-9 {
+      width: 70%;
+      height: 150px;
+      object-fit: contain; 
+      display: block;
+      margin-top: -35px;
+   
+    }
+    
+    
     .button-container {
       margin-top: 20px;
     }
