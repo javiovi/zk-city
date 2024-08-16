@@ -7,7 +7,7 @@ html {
 
 
 body {
-    background-image: url('./img/bg.jpeg');
+    background-image: url('./img/bg-liv.jpeg');
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -1111,9 +1111,11 @@ margin: 0;
     font-weight: 400;
     font-size: 15px;
     margin: 0;
-    width: 90%;
+    width: 95%;
   }
-  
+
+
+
 /* Estilos para móviles */
 @media (max-width: 768px) {
     
@@ -1183,13 +1185,25 @@ margin: 0;
      
     }
 
-  
-    .themes-content {
-      grid-template-columns: 1fr; 
-      gap: 10px;
-      
+    .day-1 {
+      order: 1;
+    }
+    .day-2 {
+      order: 4;
+    }
+    .day-3 {
+      order: 3;
+    }
+    .day-4 {
+      order: 4;
+    }
+    .day-5 {
+      order: 3;
     }
   
+    .themes-content {
+      grid-template-columns: 1fr;
+    }
     .theme-item p {
       width: 100%;
       font-size: 14px;

@@ -23,15 +23,16 @@
   "weekend": "Hackathon de viernes a domingo",
   "main-desk": "./assets/icons/mask-es-desktop.svg",
   "main-mobile": "./assets/icons/mask-es-mobile.svg",
-  "tl-1":"Introducción<br> a la Criptografía",
-  "pr-1":"Qué es la Criptografía. Introducción a problemas intractables: Logaritmo Discreto, RSA, Diffie-Hellmann. Firmas digitales, intercambio de clave. Funciones de Hash y Bitcoin. Transacciones en criptomonedas. Puebas de conocimiento: intuición y definición. Zero-knowledge (cero conocimiento): intuición y definición. Ejemplo: prueba de conocimiento del logaritmo discreto. Todo en uno: ZCash y las pruebas zero-knowledge.",
-  "tl-2":"Pruebas de Sistemas",
-  "pr-2":"Comprender las transacciones de criptomonedas y pruebas de conocimiento: definición e intuición, pruebas de conocimiento cero y ejemplos prácticos como el conocimiento del logaritmo discreto y ZCash.",
-  "pr-3":"Definición. Receta: general, pruebas interactivas con polinomios como oráculos y esquemas de compromiso de polinomios. El esquema de KZG, emparejamientos, Algebraic Group Model.",
-  "tl-4":"Diseño",
-  "pr-4":"SNARKs para relaciones específicas: compromiso a vectores, lookup a tablas.",
-  "tl-5":"¿Qué más hay?",
-  "pr-5":"Diferentes setups: participante de confianza, actualizable (universal), transparente. Otras relaciones, problemas NP con diferentes aritmetizaciones: Plonk, R1CS (Rank-1 Constraint System), QAPs (Quadratic Arithmetic Programs). STARKs (Scalable Transparent Arguments of Knowledge), Groth16.",
+  "tl-1":"Día 1: Introducción a La Criptografía",
+    "pr-1":"Proveer una base sólida en criptografía y sus primitivas esenciales, preparando a los participantes para comprender y aplicar técnicas avanzadas en los días posteriores.",
+    "tl-2":"Día 2: Aritmetización de Plonk I",
+    "pr-2":"Explorar los componentes fundamentales de un sistema de pruebas criptográficas y desarrollar una comprensión profunda de la aritmetización basada en circuitos.",
+    "tl-3":"Día 3: Aritmetización de Plonk II",
+    "pr-3": "Completar la exploración de las ecuaciones y técnicas avanzadas utilizadas en Plonk.",
+    "tl-4":"Día 4: De oráculos a PCSs",
+    "pr-4":"Demostrar y analizar ejemplos de esquemas de compromiso polinómico, esenciales en la construcción de pruebas de conocimiento cero (ZK).",
+    "tl-5":"Día 5: Full proving system",
+    "pr-5":"Integrar todos los componentes aprendidos para construir un sistema de pruebas tipo Plonk, enfocándose en la comprensión de cada etapa y la identificación de oportunidades de optimización.",
   "mentors-desk": "./assets/icons/mentores-desk.svg",
   "mentors-mob": "./assets/icons/mentores-mobile.svg",
   "colab-desk":"./assets/icons/colab-desk.svg",
@@ -60,4 +61,6 @@
   "derechos": "© 2024 —Todos los Derechos Reservados",
   "mentors-online": "./assets/icons/mentores-online.svg",
   "mentors-online-mob": "./assets/icons/mentores-online-mobile.svg"
+
+
   }
